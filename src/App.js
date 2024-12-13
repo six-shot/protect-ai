@@ -3,6 +3,7 @@ import "./App.css";
 import Navbar from "./components/navbar";
 import Hero from "./modules/sections/hero";
 import Features from "./modules/sections/features";
+import Scam from "./modules/sections/scam";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Navbar />
       <Hero/>
       <Features/>
+      <Scam/>
     </div>
   );
 }

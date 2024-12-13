@@ -30,7 +30,7 @@ const Card = ({
     >
       <motion.div className=" flex justify-end items-end relative  max-w-[75%] w-full bg-white  h-[620px] rounded-[max(20.4px,_20.4px_+_100vw*_.0021)]  ">
         <video
-          className=" h-[650px] object-cover rounded-[max(20.4px,_20.4px_+_100vw*_.0021)] "
+          className=" h-[620px] object-cover rounded-[max(20.4px,_20.4px_+_100vw*_.0021)] "
           src={src}
           autoPlay
           loop
