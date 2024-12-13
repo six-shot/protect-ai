@@ -1,4 +1,6 @@
-
+body{
+  background-color: #EAF2FF;
+}
 @font-face {
   font-family: ReyhanMedium;
   src: url(../public/fonts/Reyhan-Medium.ttf);
