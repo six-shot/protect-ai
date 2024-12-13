@@ -28,7 +28,7 @@ const Card = ({
       ref={container}
       className="h-screen max-w-[1440px]  mx-auto  sticky flex justify-center top-0 w-full  left-0"
     >
-      <motion.div className=" flex justify-end items-end relative  max-w-[68%] w-full bg-white  h-[600px] rounded-[max(20.4px,_20.4px_+_100vw*_.0021)]  ">
+      <motion.div className=" flex justify-end items-end relative  max-w-[68.7%] w-full bg-white  h-[600px] rounded-[max(20.4px,_20.4px_+_100vw*_.0021)]  ">
         <video
           className=" h-[600px] object-cover rounded-[max(20.4px,_20.4px_+_100vw*_.0021)] "
           src={src}
