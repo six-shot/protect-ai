@@ -1,0 +1,17 @@
+
+@font-face {
+  font-family: ReyhanMedium;
+  src: url(../public/fonts/Reyhan-Medium.ttf);
+  font-display: block;
+}
+.reyhan-medium{
+  font-family: ReyhanMedium;
+}
+@font-face {
+  font-family: ReyhanRegular;
+  src: url(../public/fonts/Reyhan-Regular.ttf);
+  font-display: block;
+}
+.reyhan-regular{
+  font-family: ReyhanRegular;
+}
