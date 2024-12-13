@@ -6,7 +6,7 @@ export default function Portfolio() {
     <div>
       <div className="relative">
         <video src={video4} autoPlay loop muted playsInline />
-        <div className="absolute top-20 w-full   text-white z-[10] ">
+        <div className="absolute top-0 w-full   text-white z-[10] ">
           <div className="flex flex-col justify-center items-center reyhan-medium">
             <h2 className="text-[56px]  w-[848px] leading-[1.1em] tracking-[-2px] text-center mb-[36px]">
               The portfolio Management system designed for your growth
