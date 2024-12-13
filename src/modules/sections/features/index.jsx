@@ -24,7 +24,7 @@ export default function Features() {
   });
   return (
     <div>
-      <div className="py-[100px] max-w-[1440px] mx-auto  ">
+      <div className=" max-w-[1440px] mx-auto  ">
         <h2 className="text-[85px] w-[663px] reyhan-medium leading-[1em] text-[#2e21de] px-2.5 ml-[256px] ">
           Designed for today's complex, global market.
         </h2>
