@@ -9,32 +9,37 @@ export default function Scam() {
     offset: ["start start", "end end"],
   });
 
-  // Scale effect for zooming into the text
-  const scale = useTransform(scrollYProgress, [0, 1], [1, 300]);
+  // Scale to fill the screen
+  const scale = useTransform(scrollYProgress, [0, 1], [1, 150]);
 
   return (
-    <div ref={container} className="h-[300vh]">
-      {/* Sticky container */}
-      <div className="sticky top-0 h-screen flex items-center justify-center ">
-        {/* Text Container */}
+    <div ref={container} className="h-[450vh] relative">
+      <div className="sticky top-0 h-screen flex items-center justify-center overflow-hidden">
         <motion.div
           style={{
             scale,
             transformOrigin: "center",
-            clipPath: "text",
-            WebkitClipPath: "text",
           }}
-          className="textContainer"
+          className="absolute inset-0 flex items-center justify-center"
         >
-          <h1
-            className="reyhan-medium font-bold leading-[1em] text-[90px] "
+          <div
+            className="w-full h-full absolute"
             style={{
-              color: "#2e21de", // Blue text color
-              background: "none", // Ensure no background affects zoom
-              textAlign: "center",
+             
+              position: "absolute",
+              top: 0,
+              left: 0,
+            }}
+          />
+          <h1
+            className="reyhan-medium font-bold leading-[1em] text-[90px] z-10 -mt-[50px] mr-[50px]"
+            style={{
+              color: "#2e21de", // Changed to white for visibility
+              position: "relative",
+              zIndex: 10,
             }}
           >
-            Enter a world Without scam
+          Enter a wolrd without scam
           </h1>
         </motion.div>
       </div>
