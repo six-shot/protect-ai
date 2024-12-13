@@ -25,7 +25,6 @@ export default function Scam() {
           <div
             className="w-full h-full absolute"
             style={{
-             
               position: "absolute",
               top: 0,
               left: 0,
@@ -34,12 +33,12 @@ export default function Scam() {
           <h1
             className="reyhan-medium font-bold leading-[1em] text-[90px] z-10 -mt-[50px] mr-[50px]"
             style={{
-              color: "#2e21de", // Changed to white for visibility
+              color: "#0B0736", // Changed to white for visibility
               position: "relative",
               zIndex: 10,
             }}
           >
-          Enter a wolrd without scam
+            Enter a wolrd without scam
           </h1>
         </motion.div>
       </div>
