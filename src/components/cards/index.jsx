@@ -26,7 +26,7 @@ const Card = ({
   return (
     <div
       ref={container}
-      className="h-screen max-w-[1440px] px-[36px] mx-auto  sticky flex justify-center top-0 w-full  left-0"
+      className="h-screen max-w-[1440px]  mx-auto  sticky flex justify-center top-0 w-full  left-0"
     >
       <motion.div className=" flex justify-end items-end relative  max-w-[68%] w-full bg-white  h-[600px] rounded-[max(20.4px,_20.4px_+_100vw*_.0021)]  ">
         <video
