@@ -1,6 +1,6 @@
 import { useTransform, motion, useScroll } from "framer-motion";
 import { useRef } from "react";
-import asset from "../../assets/icons/asset.svg"
+import asset from "../../assets/icons/asset.svg";
 
 const Card = ({
   i,
@@ -28,7 +28,13 @@ const Card = ({
       ref={container}
       className="h-screen max-w-[1440px]  mx-auto  sticky flex justify-center top-0 w-full  left-0"
     >
-      <motion.div className=" flex justify-end items-end relative  max-w-[75%] w-full bg-white  h-[620px] rounded-[max(20.4px,_20.4px_+_100vw*_.0021)]  ">
+      <motion.div
+        style={{
+          scale,
+          top: `calc(-5vh + ${i * 25}px)`,
+        }}
+        className=" origin-top flex justify-end items-end relative  max-w-[75%] w-full bg-white  h-[620px] rounded-[max(20.4px,_20.4px_+_100vw*_.0021)]  "
+      >
         <video
           className=" h-[620px] object-cover rounded-[max(20.4px,_20.4px_+_100vw*_.0021)] "
           src={src}
