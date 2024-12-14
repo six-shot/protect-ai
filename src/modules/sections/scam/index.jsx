@@ -13,7 +13,7 @@ export default function Scam() {
   const scale = useTransform(scrollYProgress, [0, 1], [1, 150]);
 
   return (
-    <div ref={container} className="h-[400vh] relative">
+    <div ref={container} className="h-[200vh] relative">
       <div className="sticky top-0 h-screen flex items-center justify-center overflow-hidden">
         <motion.div
           style={{
