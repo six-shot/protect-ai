@@ -4,7 +4,7 @@ import video4 from "../../../assets/video4.mp4"
 export default function Portfolio() {
   return (
     <div>
-      <div className="relative bg-red-500">
+      <div className="relative bg-red-500 overflow-x-hidden">
         <video src={video4} autoPlay loop muted playsInline />
         <div className="absolute top-10 w-full   text-white z-[10] ">
           <div className="flex flex-col justify-center items-center reyhan-medium">
@@ -33,7 +33,9 @@ export default function Portfolio() {
               </button>
             </div>
           </div>
+          
         </div>
+        
       </div>
     </div>
   );
