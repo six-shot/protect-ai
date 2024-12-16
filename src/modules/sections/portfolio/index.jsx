@@ -1,10 +1,10 @@
-import React from 'react'
-import video4 from "../../../assets/video4.mp4"
+import React from "react";
+import video4 from "../../../assets/video4.mp4";
 
 export default function Portfolio() {
   return (
     <div>
-      <div className="relative bg-red-500 overflow-x-hidden">
+      <div className="relative bg-[#040313] overflow-x-hidden">
         <video src={video4} autoPlay loop muted playsInline />
         <div className="absolute top-10 w-full   text-white z-[10] ">
           <div className="flex flex-col justify-center items-center reyhan-medium">
@@ -33,9 +33,21 @@ export default function Portfolio() {
               </button>
             </div>
           </div>
-          
         </div>
-        
+      </div>
+      <div className="bg-[#040313] py-20 px-">
+        <div className="max-w-[1440px] mx-auto flex flex-col gap-5 px-[230px]">
+          <div className="grid grid-cols-5 gap-5 items-center ">
+            <div className="w-[570px] h-[348px] bg-[#0d111d] border border-[#FFFFFF0D] rounded-[12px]"></div>
+          </div>
+          <div className="flex flex-row gap-5">
+            <div className="w-[355px] h-[268px] bg-[#0d111d] border border-[#FFFFFF0D] rounded-[12px]"></div>
+            <div className="w-[355px] h-[268px] bg-[#0d111d] border border-[#FFFFFF0D] rounded-[12px]"></div>
+          </div>
+          <div className="grid grid-cols-5 gap-5 items-center ">
+            <div className="w-[570px] h-[348px] bg-[#0d111d] border border-[#FFFFFF0D] rounded-[12px]"></div>
+          </div>
+        </div>
       </div>
     </div>
   );

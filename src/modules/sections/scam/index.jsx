@@ -38,7 +38,7 @@ export default function Scam() {
               zIndex: 10,
             }}
           >
-            Enter a wolrd without scam
+            Enter a world without scam
           </h1>
         </motion.div>
       </div>
