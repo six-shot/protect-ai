@@ -1,12 +1,12 @@
 import React from "react";
-import github from "../../../assets/icons/github.svg"
+import github from "../../../assets/icons/github.svg";
 import linkedlin from "../../../assets/icons/linkedin.svg";
 import youtube from "../../../assets/icons/youtube.svg";
 import spotify from "../../../assets/icons/spotify.svg";
 export default function Footer() {
   return (
-    <div className="bg-white reyhan-regular">
-      <footer className="px-[clamp(16px,_8.278px_+_100vw*_.0198,_42px)] ">
+    <div className="bg-white reyhan-regular px-[clamp(16px,_8.278px_+_100vw*_.0198,_42px)] pb-[50px]">
+      <footer className=" ">
         <div className="bg-[#E5EFFF] flex pl-[clamp(16px,_8.278px_+_100vw*_.0198,_42px)] py-[clamp(12px,_1.275px_+_100vw*_.0275,_48px)] rounded-[clamp(16px,_13.621px_+_100vw*_.0061,_24px)]">
           <div className="flex justify-between flex-col w-[25%]">
             <div className=" ">
@@ -74,6 +74,21 @@ export default function Footer() {
           </div>
         </div>
       </footer>
+      <div className="px-[100px]">
+        <div className="bg-[#c7dcfe]  rounded-b-[clamp(16px,_13.621px_+_100vw*_.0061,_24px)]  py-[42px] px-[9px]">
+          <div className="px-[42px] text-[#01001f]/40">
+            <p> Copyright © 2024 Clear Street LLC. All rights reserved.</p>
+            <p className="text-xs w-[862px]">
+              Products and services are offered by Clear Street LLC as a Broker
+              Dealer member FINRA and SIPC and a Futures Commission Merchant
+              registered with the CFTC and member of NFA. Additional information
+              about Clear Street is available on FINRA BrokerCheck, including
+              its Customer Relationship Summary and NFA BASIC | NFA 
+              (futures.org).
+            </p>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
