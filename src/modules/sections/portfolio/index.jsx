@@ -35,7 +35,7 @@ export default function Portfolio() {
           </div>
         </div>
       </div>
-      <div className="bg-[#040313] py-20 px-">
+      <div className="bg-[#040313] py-20 ">
         <div className="max-w-[1440px] mx-auto flex flex-col gap-5 px-[230px]">
           <div className="grid grid-cols-5 gap-5 items-center ">
             <div className="w-[570px] h-[348px] bg-[#0d111d] border border-[#FFFFFF0D] rounded-[12px]"></div>

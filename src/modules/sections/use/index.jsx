@@ -18,7 +18,7 @@ export default function UseCase() {
   ];
 
   return (
-    <div className="bg-[#040313] reyhan-medium px-[clamp(16px,_8.278px_+_100vw*_.0198,_42px)] pb-20">
+    <div className="bg-[#040313] reyhan-medium px-[clamp(16px,_8.278px_+_100vw*_.0198,_42px)] pt-[100px] pb-[150px]">
       <div className="flex items-center">
         <h3 className="text-[clamp(52px,39.481px_+_100vw_*_.0321,94px)] leading-[1em] tracking-[-2.4px] text-white w-[18.75%]">
           For
