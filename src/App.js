@@ -9,7 +9,7 @@ import UseCase from "./modules/sections/use";
 import News from "./modules/sections/news";
 import GetInTouch from "./modules/sections/getintouch";
 import Footer from "./modules/sections/footer";
-import WebGLContainer from "./modules/test";
+
 
 function App() {
   return (
@@ -22,7 +22,7 @@ function App() {
       <UseCase />
       <News />
       <GetInTouch />
-      <Footer />
+      <Footer /> 
      
     </div>
   );

@@ -3,12 +3,12 @@ import video4 from "../../../assets/video4.mp4";
 
 export default function Portfolio() {
   return (
-    <div>
+    <div className="md:block hidden">
       <div className="relative bg-[#040313] overflow-x-hidden">
         <video src={video4} autoPlay loop muted playsInline />
         <div className="absolute top-10 w-full   text-white z-[10] ">
           <div className="flex flex-col justify-center items-center reyhan-medium">
-            <h2 className="text-[56px]  w-[848px] leading-[1.1em] tracking-[-2px] text-center mb-[36px]">
+            <h2 className="md:text-[56px] text-[28px]  md:w-[848px] leading-[1.1em] tracking-[-2px] text-center mb-[36px]">
               The portfolio Management system designed for your growth
             </h2>
             <button className="h-[40px] px-3  text-white bg-[#2e21de] rounded-[max(23.5px,_calc(23.5px_+_100vw_*_0.0185))]">
@@ -35,20 +35,7 @@ export default function Portfolio() {
           </div>
         </div>
       </div>
-      <div className="bg-[#040313] py-20 ">
-        <div className="max-w-[1440px] mx-auto flex flex-col gap-5 px-[230px]">
-          <div className="grid grid-cols-5 gap-5 items-center ">
-            <div className="w-[570px] h-[348px] bg-[#0d111d] border border-[#FFFFFF0D] rounded-[12px]"></div>
-          </div>
-          <div className="flex flex-row gap-5">
-            <div className="w-[355px] h-[268px] bg-[#0d111d] border border-[#FFFFFF0D] rounded-[12px]"></div>
-            <div className="w-[355px] h-[268px] bg-[#0d111d] border border-[#FFFFFF0D] rounded-[12px]"></div>
-          </div>
-          <div className="grid grid-cols-5 gap-5 items-center ">
-            <div className="w-[570px] h-[348px] bg-[#0d111d] border border-[#FFFFFF0D] rounded-[12px]"></div>
-          </div>
-        </div>
-      </div>
+     
     </div>
   );
 }
