@@ -2,11 +2,11 @@ import React from "react";
 
 export default function UseCase() {
   const items = [
-    "Active Traders",
-    "Family Offices",
-    "Hedge Funds",
-    "Traditional Assets Managers",
-    "Alternative Assets managers",
+    "Individual Crypto Users",
+    "DeFi Investors",
+    "Institutions and Enterprises",
+    "NFT Collectors and Traders",
+    " Web3 Beginners",
   ];
 
   const colors = [
