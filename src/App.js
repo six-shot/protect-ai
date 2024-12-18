@@ -11,18 +11,29 @@ import GetInTouch from "./modules/sections/getintouch";
 import Footer from "./modules/sections/footer";
 import SiteWrapper from "./components/SiteWrapper";
 
-
 function App() {
   return (
     <SiteWrapper>
-      <div className="w-full ">
+      <div className="w-full">
         <Navbar />
-        <Hero />
-        <Features />
-        <Scam />
-        <Portfolio />
-        <UseCase />
-        <News />
+        <div >
+          <Hero />
+        </div>
+        <div >
+          <Features />
+        </div>
+        <div >
+          <Scam />
+        </div>
+        <div >
+          <Portfolio />
+        </div>
+        <div >
+          <UseCase />
+        </div>
+        <div >
+          <News />
+        </div>
         <GetInTouch />
         <Footer />
       </div>

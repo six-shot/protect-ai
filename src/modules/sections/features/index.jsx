@@ -25,7 +25,7 @@ export default function Features() {
     requestAnimationFrame(raf);
   });
   return (
-    <div>
+    <div id="features">
       <div className=" max-w-[1440px] mx-auto o ">
         <h2 className="md:text-[85px] py-[73px] text-[clamp(52px,_39.481px_+_100vw*_.0321,_94px)] md:w-[663px] reyhan-medium leading-[1em] text-[#2e21de] md:px-2.5 px-4 md:ml-[256px] ">
           Digital Confidence With AI Antivirus.

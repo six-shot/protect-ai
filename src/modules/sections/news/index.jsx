@@ -2,7 +2,7 @@ import React from "react";
 import { FaArrowRight } from "react-icons/fa6";
 export default function News() {
   return (
-    <div className="md:px-[350px] pt-[150px] md:pb-[300px] bg-white">
+    <div id="news" className="md:px-[350px] pt-[150px] md:pb-[300px] bg-white">
       <div className="max-w-[1440px] mx-auto md:px-0 px-4">
         <div className="reyhan-medium tracking-[-1px]">
           <h4 className="text-[clamp(24px,_15.069px_+_100vw*_.0229,_54px)]">
@@ -64,7 +64,9 @@ export default function News() {
             <div className="bg-[#f1f4f9] w-full px-[22px] md:py-[26px] py-4 flex md:flex-row flex-col md:gap-10 gap-2 items-start rounded-[16px] relative z-10">
               <h6 className="text-[#01001f]/40 text-sm">May 20, 2024</h6>
               <h6 className="text-[#01001f] md:text-[22px] text-[18px] leading-[1.1em]">
-                <span className="text-[#01001f]/40  mr-1.5">Emerging Threats</span>
+                <span className="text-[#01001f]/40  mr-1.5">
+                  Emerging Threats
+                </span>
                 How Protect AI Stays Ahead of Emerging Threats
               </h6>
             </div>
