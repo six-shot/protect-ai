@@ -43,17 +43,22 @@ export default function Footer() {
                 </ul>
               </div>
               <div className=" md:w-[36%] ">
-                <h5 className="text-[#01001f]/40 mb-2.5">GET STARTED</h5>
+                <h5 className="text-[#01001f]/40 mb-2.5 uppercase">Features</h5>
                 <ul className="flex flex-col gap-[5px] text-[#01001f]">
-                  <li>Institutional</li>
-                  <li>Professional Clearing</li>
-                  <li>Active Trading</li>
+                  <li>Phishing Protection</li>
+                  <li>Contract Analysis</li>
+                  <li>Token Analysis</li>
+                  <li>Transaction Simulation</li>
+                  <li>Risk Detection</li>
+                  <li>Real-Time Alerts</li>
                 </ul>
               </div>
               <div className=" md:w-[16%]">
-                <h5 className="text-[#01001f]/40 mb-2.5">PRODUCTS</h5>
+                <h5 className="text-[#01001f]/40 mb-2.5">OUR APPROACH</h5>
                 <ul className="flex flex-col gap-[5px] text-[#01001f]">
-                  <li>Studio</li>
+                  <li>AI-Driven Protection</li>
+                  <li>Seamless Integration</li>
+                  <li>Proactive Security</li>
                 </ul>
               </div>
             </div>
@@ -64,10 +69,8 @@ export default function Footer() {
             </div>
           </div>
           <div className="md:w-[25%]  ">
-            <h5 className="text-[#01001f]/40 mb-2.5">ADDRESS</h5>
+            <h5 className="text-[#01001f]/40 mb-2.5 uppercase">Phone number</h5>
             <p className="leading-[1.3em] text-[#01001f]">
-              4 World Trade Center <br /> 150 Greenwich St Floor 45 <br /> New
-              York, NY 10007
               <br />
               (646) 845-0036
             </p>
@@ -77,13 +80,13 @@ export default function Footer() {
       <div className="md:px-[100px] px-5">
         <div className="bg-[#c7dcfe]  rounded-b-[clamp(16px,_13.621px_+_100vw*_.0061,_24px)]  py-[42px] px-[9px]">
           <div className="px-[42px] text-[#01001f]/40">
-            <p> Copyright © 2024 Clear Street LLC. All rights reserved.</p>
+            <p> Copyright © 2024 Protect ai . All rights reserved.</p>
             <p className="text-xs md:w-[862px]">
               Products and services are offered by Clear Street LLC as a Broker
               Dealer member FINRA and SIPC and a Futures Commission Merchant
               registered with the CFTC and member of NFA. Additional information
               about Clear Street is available on FINRA BrokerCheck, including
-              its Customer Relationship Summary and NFA BASIC | NFA 
+              its Customer Relationship Summary and NFA BASIC | NFA
               (futures.org).
             </p>
           </div>
