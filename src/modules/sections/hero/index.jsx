@@ -1,5 +1,5 @@
 import React from "react";
-import video1 from "../../../assets/33.mp4";
+import video1 from "../../../assets/newvid.mp4";
 import minivideo from "../../../assets/heromini.mp4";
 export default function Hero() {
   return (
