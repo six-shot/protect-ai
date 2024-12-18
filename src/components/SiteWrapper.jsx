@@ -1,7 +1,5 @@
 import React, { useState, useEffect } from "react";
 
-
-
 const Preloader = ({ children }) => {
   const [isLoading, setIsLoading] = useState(true);
 
@@ -9,6 +7,7 @@ const Preloader = ({ children }) => {
     const checkAssetsLoaded = () => {
       const images = document.querySelectorAll("img");
       const fonts = document.fonts;
+      const videos = document.querySelectorAll("video");
 
       // Check if all images are loaded
       const imagesLoaded = Array.from(images).every((img) => img.complete);
@@ -18,7 +17,12 @@ const Preloader = ({ children }) => {
         ? Array.from(fonts).every((font) => font.status === "loaded")
         : true;
 
-      return imagesLoaded && fontsLoaded;
+      // Check if all videos are loaded
+      const videosLoaded = Array.from(videos).every((video) => {
+        return video.readyState >= 4; // readyState 4 means video is fully loaded
+      });
+
+      return imagesLoaded && fontsLoaded && videosLoaded;
     };
 
     const startLoadingCheck = () => {
@@ -43,8 +47,8 @@ const Preloader = ({ children }) => {
   if (isLoading) {
     return (
       <div className="fixed inset-0 z-50 flex items-center justify-center bg-[#2D21DE] ">
-        <div className="flex gap-4 items-center  animate-pulse">
-          <div className="">
+        <div className="flex gap-4 items-center animate-pulse">
+          <div>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="shield-icon text-white w-[60px] h-[60px]"
@@ -68,7 +72,6 @@ const Preloader = ({ children }) => {
 
   return <>{children}</>;
 };
-
 
 const SiteWrapper = ({ children }) => {
   return <Preloader>{children}</Preloader>;
