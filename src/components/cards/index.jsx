@@ -24,7 +24,7 @@ const Card = ({
   const scale = useTransform(progress, range, [1, targetScale]);
 
 
-   const opacity = useTransform(progress, range, [1, 0]);
+   
 
   return (
     <div
@@ -34,7 +34,7 @@ const Card = ({
       <motion.div
         style={{
           scale,
-          opacity,
+        
           top: `calc(-5vh + ${i * 25}px)`,
         }}
         className=" origin-top flex justify-end items-end relative  max-w-[75%] w-full bg-white  h-[620px] rounded-[max(20.4px,_20.4px_+_100vw*_.0021)]  "
