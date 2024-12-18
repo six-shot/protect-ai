@@ -50,7 +50,7 @@ export default function Features() {
           );
         })}
       </main>
-      <main className="px-4 md:hidden flex flex-col gap-10">
+      <main className="px-4 md:hidden flex flex-col gap-10 pb-[100px]">
         <div className="  relative   w-full bg-white  h-[260px] rounded-[max(20.4px,_20.4px_+_100vw*_.0021)]  ">
           <video
             className=" h-[260px] object-cover rounded-[max(20.4px,_20.4px_+_100vw*_.0021)] "
