@@ -3,7 +3,7 @@ import video1 from "../../../assets/newvid.mp4";
 import minivideo from "../../../assets/heromini.mp4";
 export default function Hero() {
   return (
-    <div className="overflow-hidden">
+    <div className="overflow-hidden pb-[200px]">
       <video
         className="md:flex hidden "
         src={video1}
