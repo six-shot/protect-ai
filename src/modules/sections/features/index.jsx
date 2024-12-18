@@ -28,7 +28,7 @@ export default function Features() {
     <div>
       <div className=" max-w-[1440px] mx-auto o ">
         <h2 className="md:text-[85px] py-[73px] text-[clamp(52px,_39.481px_+_100vw*_.0321,_94px)] md:w-[663px] reyhan-medium leading-[1em] text-[#2e21de] md:px-2.5 px-4 md:ml-[256px] ">
-          Designed for today's complex, global market.
+          Digital Confidence With AI Antivirus.
         </h2>
       </div>
       <main
@@ -66,7 +66,7 @@ export default function Features() {
             </div>
             <div className="flex flex-col gap-[20px]">
               <h3 className="text-[28px] reyhan-medium leading-[1.1em] tracking-[-1.92px] text-[#2e21de]">
-                Built for Multi-Assets Clearing
+                Strengthening Defenses, Securing Networks.
               </h3>
               <ul className="reyhan-medium flex gap-[6px] flex-col ">
                 <li className="pt-1  pl-3 border-l border-[#4020DF1A] text-[#2e21de] leading-[1.3em]">

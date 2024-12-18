@@ -13,6 +13,7 @@ const Card = ({
   progress,
   range,
   targetScale,
+  features,
 }) => {
   const container = useRef(null);
   const { scrollYProgress } = useScroll({
@@ -23,9 +24,6 @@ const Card = ({
   const imageScale = useTransform(scrollYProgress, [0, 1], [2, 1]);
   const scale = useTransform(progress, range, [1, targetScale]);
 
-
-   
-
   return (
     <div
       ref={container}
@@ -34,7 +32,7 @@ const Card = ({
       <motion.div
         style={{
           scale,
-        
+
           top: `calc(-5vh + ${i * 25}px)`,
         }}
         className=" origin-top flex justify-end items-end relative  max-w-[75%] w-full bg-white  h-[620px] rounded-[max(20.4px,_20.4px_+_100vw*_.0021)]  "
@@ -52,19 +50,18 @@ const Card = ({
             <img className="w-[30px]" src={asset} alt="asset" />
           </div>
           <div className="flex flex-col gap-[max(20.4px,20.4px_+_100vw_*_.0021)]">
-            <h3 className="text-[56px] reyhan-medium leading-[1.1em] tracking-[-1.92px] text-[#2e21de]">
-              Built for <br /> Multi-Assets <br /> Clearing
+            <h3 className="text-[56px] w-[400px] reyhan-medium leading-[1.1em] tracking-[-1.92px] text-[#2e21de]">
+              {title}
             </h3>
-            <ul className="reyhan-medium flex items-center  gap-[max(20.4px,_20.4px_+_100vw*_.0021)]">
-              <li className="w-[122px] pt-1 pl-3 border-l border-[#4020DF1A] text-[#2e21de] leading-[1.3em]">
-                One platform for all assets classes
-              </li>
-              <li className="w-[122px] pt-1 pl-3 border-l h-[67px] border-[#4020DF1A] text-[#2e21de] leading-[1.3em]">
-                Data available in real-time
-              </li>
-              <li className="w-[122px] pt-1 pl-3 border-l border-[#4020DF1A] text-[#2e21de] leading-[1.3em]">
-                Information held in a single system
-              </li>
+            <ul className="reyhan-medium flex items-center gap-[max(20.4px,_20.4px_+_100vw*_.0021)]">
+              {features.map((feature, index) => (
+                <li
+                  key={index}
+                  className="w-[122px] pt-1 pl-3 border-l border-[#4020DF1A] text-[#2e21de] leading-[1.3em]"
+                >
+                  {feature}
+                </li>
+              ))}
             </ul>
           </div>
         </div>
