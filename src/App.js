@@ -9,22 +9,24 @@ import UseCase from "./modules/sections/use";
 import News from "./modules/sections/news";
 import GetInTouch from "./modules/sections/getintouch";
 import Footer from "./modules/sections/footer";
+import SiteWrapper from "./components/SiteWrapper";
 
 
 function App() {
   return (
-    <div className="w-full ">
-      <Navbar />
-      <Hero />
-      <Features />
-      <Scam />
-      <Portfolio />
-      <UseCase />
-      <News />
-      <GetInTouch />
-      <Footer /> 
-     
-    </div>
+    <SiteWrapper>
+      <div className="w-full ">
+        <Navbar />
+        <Hero />
+        <Features />
+        <Scam />
+        <Portfolio />
+        <UseCase />
+        <News />
+        <GetInTouch />
+        <Footer />
+      </div>
+    </SiteWrapper>
   );
 }
 
