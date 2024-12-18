@@ -42,28 +42,25 @@ const Preloader = ({ children }) => {
 
   if (isLoading) {
     return (
-      <div className="fixed inset-0 z-50 flex items-center justify-center bg-[#2D21DE]">
-        <div className="animate-pulse">
-          <svg
-            className="w-20 h-20 text-white"
-            fill="none"
-            stroke="currentColor"
-            viewBox="0 0 24 24"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
+      <div className="fixed inset-0 z-50 flex items-center justify-center bg-[#2D21DE] ">
+        <div className="flex gap-4 items-center  animate-pulse">
+          <div className="">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              className="shield-icon text-white w-[60px] h-[60px]"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="2"
               strokeLinecap="round"
               strokeLinejoin="round"
-              strokeWidth={2}
-              d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z"
-            />
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth={2}
-              d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
-            />
-          </svg>
+            >
+              <path d="M12 2l7 4v6c0 5-3.5 9.5-7 10-3.5-0.5-7-5-7-10V6l7-4z" />
+            </svg>
+          </div>
+          <h4 className="text-white reyhan-medium uppercase text-[30px]">
+            Protect AI
+          </h4>
         </div>
       </div>
     );

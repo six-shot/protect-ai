@@ -11,8 +11,8 @@ export default function Footer() {
           <div className="md:flex hidden justify-between flex-col w-[25%]">
             <div className=" ">
               <h5 className="text-[#01001f]/40 mb-2.5">GET STARTED</h5>
-              <button className="bg-[#01001f] h-[36px] w-[56px] rounded-full text-white text-sm">
-                Login
+              <button className="bg-[#01001f] h-[36px] w-[70px] rounded-full text-white text-sm">
+                Try now
               </button>
             </div>
             <div className="flex items-center gap-3">
@@ -36,10 +36,10 @@ export default function Footer() {
               <div className=" md:w-[30%] ">
                 <h5 className="text-[#01001f]/40 mb-2.5">GET STARTED</h5>
                 <ul className="flex flex-col gap-[5px] text-[#01001f]">
+                  <li>Home</li>
                   <li>About</li>
-                  <li>News & Content</li>
-                  <li>Careers</li>
-                  <li>Contact</li>
+                  <li>Feauture</li>
+                  <li>Buy</li>
                 </ul>
               </div>
               <div className=" md:w-[36%] ">
