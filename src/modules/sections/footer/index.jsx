@@ -7,7 +7,7 @@ export default function Footer() {
   return (
     <div className="bg-white reyhan-regular px-[clamp(16px,_8.278px_+_100vw*_.0198,_42px)] pb-[50px]">
       <footer className=" ">
-        <div className="bg-[#E5EFFF] flex md:flex-row flex-col pl-[clamp(16px,_8.278px_+_100vw*_.0198,_42px)] py-[clamp(12px,_1.275px_+_100vw*_.0275,_48px)] rounded-[clamp(16px,_13.621px_+_100vw*_.0061,_24px)]">
+        <div className="bg-[#E5EFFF] py-10  flex md:flex-row flex-col md:gap-0 gap-[30px] pl-[clamp(16px,_8.278px_+_100vw*_.0198,_42px)] md:py-[clamp(12px,_1.275px_+_100vw*_.0275,_48px)] rounded-[clamp(16px,_13.621px_+_100vw*_.0061,_24px)]">
           <div className="md:flex hidden justify-between flex-col w-[25%]">
             <div className=" ">
               <h5 className="text-[#01001f]/40 mb-2.5">GET STARTED</h5>
@@ -31,8 +31,8 @@ export default function Footer() {
             </div>
           </div>
 
-          <div className="md:w-[50%] flex md:gap-[150px] flex-col ">
-            <div className="flex md:flex-row flex-col items-start">
+          <div className="md:w-[50%] flex md:gap-[150px]  flex-col ">
+            <div className="flex md:flex-row flex-col gap-[30px] md:gap-0 items-start">
               <div className=" md:w-[30%] ">
                 <h5 className="text-[#01001f]/40 mb-2.5">GET STARTED</h5>
                 <ul className="flex flex-col gap-[5px] text-[#01001f]">
