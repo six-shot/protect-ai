@@ -24,7 +24,7 @@ export default function UseCase() {
 
   return (
     <div
-      id="useCase"
+      id="usecase"
       className="bg-[#040313] reyhan-medium px-[clamp(16px,_8.278px_+_100vw*_.0198,_42px)] pt-[100px] pb-[150px]"
     >
       <div className="bg-[#040313] py-20 ">

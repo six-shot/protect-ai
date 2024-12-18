@@ -6,39 +6,54 @@ import { LiaTelegramPlane } from "react-icons/lia";
 import search from "../../assets/icons/search.svg";
 
 export default function Navbar() {
-  const [isPortfolioSection, setIsPortfolioSection] = useState(false);
+   const [isPortfolioSection, setIsPortfolioSection] = useState(false);
 
-  useEffect(() => {
-    // Create intersection observer
-    const observer = new IntersectionObserver(
-      (entries) => {
-        entries.forEach((entry) => {
-          if (entry.isIntersecting) {
-            setIsPortfolioSection(true);
-          } else {
-            setIsPortfolioSection(false);
-          }
-        });
-      },
-      {
-        threshold: 0.1, // Trigger when 10% of the portfolio section is visible
-      }
-    );
+   useEffect(() => {
+     let isInPortfolio = false;
+     let isInUseCase = false;
 
-    // Find and observe the Portfolio section
-    const portfolioSection = document.querySelector("#portfolio");
-    if (portfolioSection) {
-      observer.observe(portfolioSection);
-    }
+     const observer = new IntersectionObserver(
+       (entries) => {
+         entries.forEach((entry) => {
+           const sectionId = entry.target.id;
 
-    // Cleanup observer on component unmount
-    return () => {
-      if (portfolioSection) {
-        observer.unobserve(portfolioSection);
-      }
-    };
-  }, []);
+           // Update section flags based on which section is intersecting
+           if (sectionId === "portfolio") {
+             isInPortfolio = entry.isIntersecting;
+           } else if (sectionId === "usecase") {
+             isInUseCase = entry.isIntersecting;
+           }
 
+           // Set the state to true if we're in either section
+           setIsPortfolioSection(isInPortfolio || isInUseCase);
+         });
+       },
+       {
+         threshold: 0.1,
+       }
+     );
+
+     // Observe both Portfolio and UseCase sections
+     const portfolioSection = document.querySelector("#portfolio");
+     const useCaseSection = document.querySelector("#usecase");
+
+     if (portfolioSection) {
+       observer.observe(portfolioSection);
+     }
+     if (useCaseSection) {
+       observer.observe(useCaseSection);
+     }
+
+     // Cleanup observer on component unmount
+     return () => {
+       if (portfolioSection) {
+         observer.unobserve(portfolioSection);
+       }
+       if (useCaseSection) {
+         observer.unobserve(useCaseSection);
+       }
+     };
+   }, []);
 
   return (
     <div className="fixed z-[20] w-full top-[35px]">
