@@ -21,9 +21,8 @@ function App() {
         <Hero />
         <Features />
         <Scam />
+        <FeaturesSection />
         <RoadMapSection />
-        <FeaturesSection/>
-      
         <UseCase />
         <News />
         <GetInTouch />

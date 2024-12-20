@@ -42,10 +42,10 @@ const services = [
 
 export function FeaturesSection() {
   return (
-    <section id="features" className="pb-20 md:pb-32 max-w-[1440px] mx-auto">
+    <section id="features" className="pb-20 md:py-32 max-w-[1440px] mx-auto">
       <div className="max-w-[1680px] mx-auto px-5">
         <div className="pb-32 space-y-6 text-center">
-          <p className="text-2xl capitalize text-[#0B0736]">Our features</p>
+          <p className="text-2xl capitalize text-[#2e21de]">Our features</p>
 
           <h3 className="font-bold text-text text-2xl md:text-4xl lg:text-[54px] lg:leading-[68px]">
             Best Features We Offer For Your
@@ -56,14 +56,14 @@ export function FeaturesSection() {
           {services.map((service) => (
             <div
               key={service.title}
-              className="border-[#0B0736] border-2 rounded-3xl px-6 md:px-11 lg:px-5 py-8 shadow-[0px_0px_20px_0px_#6956E940] flex flex-col items-center relative justify-center"
+              className="border-[#2e21de] border-2 rounded-3xl px-6 md:px-11 lg:px-5 py-8 shadow-[0px_0px_20px_0px_#6956E940] flex flex-col items-center relative justify-center"
             >
               <div className="bg-[#EAF2FF] z-10 w-48 h-[185px] -left-14 -top-6 absolute " />
-              <div className="absolute bg-none border-t-2 border-l-2 border-[#0B0736] w-20 h-11 -left-[1.5px] lg:-left-[2px] top-[125px] rounded-tl-3xl z-20" />
-              <div className="absolute bg-none border-b-2 border-r-2 border-[#0B0736] w-20 h-20 left-[43px] top-[47px] rounded-br-3xl z-20" />
-              <div className="absolute -top-[2px] w-8 h-20 bg-none border-t-2 border-l-2 border-[#0B0736] left-[121px] rounded-tl-3xl z-20" />
+              <div className="absolute bg-none border-t-2 border-l-2 border-[#2e21de] w-20 h-11 -left-[1.5px] lg:-left-[2px] top-[125px] rounded-tl-3xl z-20" />
+              <div className="absolute bg-none border-b-2 border-r-2 border-[#2e21de] w-20 h-20 left-[43px] top-[47px] rounded-br-3xl z-20" />
+              <div className="absolute -top-[2px] w-8 h-20 bg-none border-t-2 border-l-2 border-[#2e21de] left-[121px] rounded-tl-3xl z-20" />
 
-              <div className="absolute w-[105px] grid place-items-center h-[105px] rounded-xl p-[20px] bg-[#0B0736] top-0 left-0 z-30">
+              <div className="absolute w-[105px] grid place-items-center h-[105px] rounded-xl p-[20px] bg-[#2e21de] top-0 left-0 z-30">
                 <service.icon className="w-11 h-11" />
               </div>
 
@@ -77,7 +77,7 @@ export function FeaturesSection() {
 
                 <button
                   variant={"outline"}
-                  className="flex items-center px-7 font-semibold justify-between h-[56px] rounded-full border border-[#0B0736] w-full mt-auto text-lg text-[#0B0736] "
+                  className="flex items-center px-7 font-semibold justify-between h-[56px] rounded-full border border-[#2e21de] w-full mt-auto text-lg text-[#2e21de] "
                 >
                   Read More
                   <Icons.arrowRight />
