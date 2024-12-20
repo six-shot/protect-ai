@@ -58,7 +58,11 @@ export default function Navbar() {
 
   return (
     <div className="fixed z-[50] w-full top-[35px]">
-      <div className=" flex justify-center items-center reyhan-regular px-[10%]">
+      <div
+        className={`flex justify-center items-center reyhan-regular   ${
+          toggle ? "px-[5%]" : "px-[10%]"
+        } `}
+      >
         <div
           className={`relative h-[52px] z-[100] backdrop-blur-[7.5px] flex md:justify-normal justify-between w-full md:w-auto md:gap-[max(26.4px,_calc(26.4px_+_100vw_*_0.0339))] rounded-[max(23.5px,_calc(23.5px_+_100vw_*_0.0185))] items-center pl-6 pr-2.5  ${
             isPortfolioSection
@@ -113,42 +117,56 @@ export default function Navbar() {
               onClick={() => setToggle(!toggle)}
               className="h-[32px] px-3 text-white bg-[#2e21de] rounded-[max(23.5px,_calc(23.5px_+_100vw_*_0.0185))]"
             >
-              Menu
+              {toggle ? "Close" : "Menu"}
             </button>
           </div>
         </div>
       </div>
 
       <div
-        className={`${
-          toggle ? "flex flex-col" : "hidden"
-        }   fixed z-[10000] top-[35px] w-full  sidebar`}
+        className={`fixed z-[10] top-[35px] w-full sidebar  px-[5%] transition-all duration-500 ease-in-out  ${
+          toggle ? " flex flex-col px-[5%]" : " hidden px-[10%]"
+        }`}
       >
-        <div className="px-[5%]">
-          <div className="bg-white rounded-[max(23.5px,_calc(23.5px_+_100vw_*_0.0185))]">
-            <div className="h-[52px]  pl-6 pr-2.5 flex justify-between items-center">
-              <h4 className="">LOGO</h4>
+        <div
+          className={` ${
+            isPortfolioSection
+              ? "bg-[#0f151fcc]  shadow-[0_1px_0_0_#01001f] text-white"
+              : "bg-[#f2f4fdd1] shadow-[0_1px_0_0_#e5efff] text-[#2e21de]"
+          } backdrop-blur-[7.5px] w-full pb-6 rounded-[max(23.5px,_calc(23.5px_+_100vw_*_0.0185))]`}
+        >
+          <div className="pt-[74px] flex flex-col gap-8  px-6 reyhan-regular">
+            <div>
+              <h5 className=" text-sm  uppercase text-[#2e21de]/40">Company</h5>
+              <ul className="flex flex-col gap-[5px] ">
+                <li className="leading-[1.3em] pt-1">About</li>
+                <li className="leading-[1.3em] pt-1">News & Content</li>
+              </ul>
+            </div>
+            <div>
+              <h5 className=" text-sm  uppercase text-[#2e21de]/40">
+                Services
+              </h5>
+              <ul className="flex flex-col gap-[5px] ">
+                <li className="leading-[1.3em] pt-1">Institutions</li>
+                <li className="leading-[1.3em] pt-1">Professional Clearing</li>
+                <li className="leading-[1.3em] pt-1">Active Trader</li>
+              </ul>
+            </div>
+            <h5 className="leading-[1.3em] pt-1 ">Studio</h5>
+            <h5 className="leading-[1.3em] pt-1 ">Careers</h5>
+            <div className="flex justify-between items-center">
               <button
-                onClick={() => setToggle(!toggle)}
-                className="h-[32px] px-3 text-white bg-[#2e21de] rounded-[max(23.5px,_calc(23.5px_+_100vw_*_0.0185))]"
+                className={`h-[32px] px-3 border border-[#2e21de]/40  rounded-[max(23.5px,_calc(23.5px_+_100vw_*_0.0185))] text-sm  `}
               >
-                Close
+                Login
+              </button>
+              <button
+                className={`h-[32px] px-3 rounded-[max(23.5px,_calc(23.5px_+_100vw_*_0.0185))]  bg-[#2e21de] text-white text-sm `}
+              >
+                Get in touch
               </button>
             </div>
-            <ul className="list-none flex flex-col gap-4 text-white justify-end items-center flex-1">
-              <li className="cursor-pointer">
-                <a href="#">Home</a>
-              </li>
-              <li className="cursor-pointer">
-                <a href="#offers">Offers</a>
-              </li>
-              <li className="cursor-pointer">
-                <a href="#features">Features</a>
-              </li>
-              <li className="cursor-pointer">
-                <a href="#pricing">Pricing</a>
-              </li>
-            </ul>
           </div>
         </div>
       </div>

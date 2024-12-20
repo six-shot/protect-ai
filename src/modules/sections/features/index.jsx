@@ -66,17 +66,17 @@ export default function Features() {
             </div>
             <div className="flex flex-col gap-[20px]">
               <h3 className="text-[28px] reyhan-medium leading-[1.1em] tracking-[-1.92px] text-[#2e21de]">
-                Strengthening Defenses, Securing Networks.
+                Why Protect AI
               </h3>
               <ul className="reyhan-medium flex gap-[6px] flex-col ">
                 <li className="pt-1  pl-3 border-l border-[#4020DF1A] text-[#2e21de] leading-[1.3em]">
-                  One platform for all assets classes
+                  $500k Assets Safeguarded
                 </li>
                 <li className=" pt-1  pl-3 border-l border-[#4020DF1A] text-[#2e21de] leading-[1.3em]">
-                  Data available in real-time
+                  98% Cyber Threats Mitigated
                 </li>
                 <li className="pt-1 pl-3 border-l border-[#4020DF1A] text-[#2e21de] leading-[1.3em]">
-                  Information held in a single system
+                  85% Incidents Reduction
                 </li>
               </ul>
             </div>
@@ -90,17 +90,20 @@ export default function Features() {
               </div>
               <div className="flex flex-col gap-[20px] mt-5">
                 <h3 className="text-[28px] reyhan-medium leading-[1.1em] tracking-[-1.92px] text-[#2e21de] ">
-                  Built for Multi-Assets Clearing
+                  Securing Networks.
                 </h3>
                 <ul className="reyhan-medium flex gap-[6px] flex-col  ">
                   <li className="pt-1  pl-3 border-l border-[#4020DF1A] text-[#2e21de] leading-[1.3em]">
-                    One platform for all assets classes
+                    AI-Based Protection
                   </li>
                   <li className=" pt-1  pl-3 border-l border-[#4020DF1A] text-[#2e21de] leading-[1.3em]">
-                    Data available in real-time
+                    Real-Time Threat Detection
                   </li>
                   <li className="pt-1 pl-3 border-l border-[#4020DF1A] text-[#2e21de] leading-[1.3em]">
-                    Information held in a single system
+                    Adaptive Defense System
+                  </li>
+                  <li className="pt-1 pl-3 border-l border-[#4020DF1A] text-[#2e21de] leading-[1.3em]">
+                    AI-driven Threat Intelligence
                   </li>
                 </ul>
               </div>
