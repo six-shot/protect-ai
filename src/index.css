@@ -78,7 +78,7 @@
   }
 }
 .gradient-text {
-  background: linear-gradient(to bottom, #e34e3f 40%, #e34e3f 50%, #2D20DA 90%);
+  background: linear-gradient(to bottom, #e34e3f 40%, #e34e3f 50%, #2D20DA 86%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
