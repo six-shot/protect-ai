@@ -72,7 +72,7 @@ export default function Footer() {
             <h5 className="text-[#01001f]/40 mb-2.5 uppercase">Phone number</h5>
             <p className="leading-[1.3em] text-[#01001f]">
               <br />
-              (646) 845-0036
+              (486) 845-111
             </p>
           </div>
         </div>
