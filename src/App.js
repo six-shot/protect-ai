@@ -23,7 +23,7 @@ function App() {
         <Scam />
         <RoadMapSection />
         <FeaturesSection/>
-        <Portfolio />
+      
         <UseCase />
         <News />
         <GetInTouch />

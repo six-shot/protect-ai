@@ -63,7 +63,7 @@ export default function Footer() {
               </div>
             </div>
             <div className="flex md:flex-row flex-col md:gap-10 md:items-center">
-              <h5 className="text-[#01001f]">Regulatory Disclosures</h5>
+              <h5 className="text-[#01001f]">Scam Protection</h5>
               <h5 className="text-[#01001f]">Privacy Policy</h5>
               <h5 className="text-[#01001f]">Security</h5>
             </div>
@@ -85,7 +85,7 @@ export default function Footer() {
               Products and services are offered by Clear Street LLC as a Broker
               Dealer member FINRA and SIPC and a Futures Commission Merchant
               registered with the CFTC and member of NFA. Additional information
-              about Clear Street is available on FINRA BrokerCheck, including
+              about Protect ai is available on FINRA BrokerCheck, including
               its Customer Relationship Summary and NFA BASIC | NFA
               (futures.org).
             </p>
