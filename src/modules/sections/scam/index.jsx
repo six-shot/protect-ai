@@ -10,13 +10,13 @@ export default function Scam() {
   });
 
   // Scale to fill the screen
-  const scale = useTransform(scrollYProgress, [0, 1], [1, 150]);
+  const scale = useTransform(scrollYProgress, [0, 1], [1, 180]);
 
   return (
     <div
       id="scam"
       ref={container}
-      className="h-[200vh]  relative md:block hidden"
+      className="h-[250vh]  relative md:block hidden"
     >
       <div className="sticky top-0 h-screen flex items-center justify-center overflow-hidden">
         <motion.div
@@ -35,14 +35,14 @@ export default function Scam() {
             }}
           />
           <h1
-            className="reyhan-medium font-bold leading-[1em] text-[90px] z-10 -mt-[50px] mr-[50px]"
+            className="reyhan-medium font-bold leading-[1em] text-[90px] z-10 -mt-[50px] mr-[10px]"
             style={{
-              color: "#0B0736", // Changed to white for visibility
+              color: "#0B0736", 
               position: "relative",
               zIndex: 10,
             }}
           >
-            Enter a world without scam
+            Enter a world without scams
           </h1>
         </motion.div>
       </div>

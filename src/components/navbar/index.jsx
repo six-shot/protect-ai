@@ -56,7 +56,7 @@ export default function Navbar() {
    }, []);
 
   return (
-    <div className="fixed z-[20] w-full top-[35px]">
+    <div className="fixed z-[50] w-full top-[35px]">
       <div className="flex justify-center items-center reyhan-regular px-[10%]">
         <div
           className={`h-[52px] backdrop-blur-[7.5px] flex md:justify-normal justify-between w-full md:w-auto md:gap-[max(26.4px,_calc(26.4px_+_100vw_*_0.0339))] rounded-[max(23.5px,_calc(23.5px_+_100vw_*_0.0185))] items-center pl-6 pr-2.5  ${

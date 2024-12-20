@@ -10,30 +10,22 @@ import News from "./modules/sections/news";
 import GetInTouch from "./modules/sections/getintouch";
 import Footer from "./modules/sections/footer";
 import SiteWrapper from "./components/SiteWrapper";
+import { RoadMapSection } from "./modules/sections/roadmap";
+import { FeaturesSection } from "./modules/sections/feturesection";
 
 function App() {
   return (
     <SiteWrapper>
       <div className="w-full">
         <Navbar />
-        <div >
-          <Hero />
-        </div>
-        <div >
-          <Features />
-        </div>
-        <div >
-          <Scam />
-        </div>
-        <div >
-          <Portfolio />
-        </div>
-        <div >
-          <UseCase />
-        </div>
-        <div >
-          <News />
-        </div>
+        <Hero />
+        <Features />
+        <Scam />
+        <RoadMapSection />
+        <FeaturesSection/>
+        <Portfolio />
+        <UseCase />
+        <News />
         <GetInTouch />
         <Footer />
       </div>

@@ -57,9 +57,12 @@ const Card = ({
               {features.map((feature, index) => (
                 <li
                   key={index}
-                  className="w-[122px] pt-1 pl-3 border-l border-[#4020DF1A] text-[#2e21de] leading-[1.3em]"
+                  className="text-lg text-gray-700 flex flex-col gap-2 border-l border-[#4020DF1A] pl-3"
                 >
-                  {feature}
+                  <span className="font-bold text-indigo-600">
+                    {feature.value}
+                  </span>
+                  <span className="text-gray-500">{feature.description}</span>
                 </li>
               ))}
             </ul>
