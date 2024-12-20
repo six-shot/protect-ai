@@ -35,9 +35,9 @@ export default function Scam() {
             }}
           />
           <h1
-            className="reyhan-medium font-bold leading-[1em] text-[90px] z-10 -mt-[50px] mr-[10px]"
+            className="gradient-text reyhan-medium font-bold leading-[1em] text-[90px] z-10 -mt-[50px] mr-[10px]"
             style={{
-              color: "#0B0736", 
+              color: "",
               position: "relative",
               zIndex: 10,
             }}

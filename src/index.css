@@ -77,3 +77,9 @@
     transform: translateY(-50%);
   }
 }
+
+.gradient-text {
+ background: linear-gradient(to right, #2D20DA 40%, #2D20DA 60%, #e34e3f 80%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
