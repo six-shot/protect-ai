@@ -42,7 +42,7 @@ const services = [
 
 export function FeaturesSection() {
   return (
-    <section id="features" className="pb-20 md:py-32 max-w-[1440px] mx-auto">
+    <section id="portfolio" className="pb-20 md:py-32 max-w-[1440px] mx-auto">
       <div className="max-w-[1680px] mx-auto px-5">
         <div className="pb-32 space-y-6 text-center">
           <p className="text-2xl capitalize text-[#2e21de]">Our features</p>

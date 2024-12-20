@@ -3,7 +3,7 @@ import video4 from "../../../assets/video4.mp4";
 
 export default function Portfolio() {
   return (
-    <div id="portfolio" className="md:block hidden">
+    <div  className="md:block hidden">
       <div className="relative bg-[#040313] overflow-x-hidden">
         <video src={video4} autoPlay loop muted playsInline />
         <div className="absolute top-10 w-full   text-white z-[10] ">
