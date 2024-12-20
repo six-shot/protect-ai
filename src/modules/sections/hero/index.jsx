@@ -4,7 +4,7 @@ import minivideo from "../../../assets/heromini.mp4";
 import Spline from "@splinetool/react-spline";
 export default function Hero() {
   return (
-    <div id="hero" className="relative overflow-hidden pb-[200px]">
+    <div id="hero" className="relative h-screen overflow-hidden pb-[200px]">
       <Spline
         className="absolute  left-0 w-full h-full z-10"
         scene="https://prod.spline.design/Qo-SjaEZXJ2HuODE/scene.splinecode"
