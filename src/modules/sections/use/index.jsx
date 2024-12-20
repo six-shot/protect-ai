@@ -30,26 +30,22 @@ export default function UseCase() {
       <div className="bg-[#040313] py-20 ">
         <div className="max-w-[1440px] mx-auto flex flex-col gap-5 md:px-[230px]">
           <div className="grid md:grid-cols-5 grid-cols-1 gap-5 items-center ">
-            <div className="md:w-[570px] md:h-[348px] h-[256px] bg-[#0d111d] border border-[#FFFFFF0D] rounded-[12px] py-7 px-6 transform transition-transform duration-300 ease-in-out hover:scale-105 ">
+            <div className="md:w-[570px] md:h-[348px] h-[256px] bg-[#0d111d] cursor-pointer border border-[#FFFFFF0D] rounded-[12px] py-7 px-6 transform transition-transform duration-300 ease-in-out hover:scale-105 ">
               <h4 className="text-white text-[24px]">Phishing Protection</h4>
               <div className="flex items-end justify-end">
-                <img
-                  src={phishing}
-                  className="w-[300px] "
-                  alt="Phishing"
-                />
+                <img src={phishing} className="w-[300px] " alt="Phishing" />
               </div>
             </div>
           </div>
           <div className="flex md:flex-row flex-col gap-5">
-            <div className="md:w-[355px] md:h-[268px] h-[256px] bg-[#0d111d] border border-[#FFFFFF0D] rounded-[12px] py-7 px-6 transform transition-transform duration-300 ease-in-out hover:scale-105">
+            <div className="md:w-[355px] md:h-[268px] h-[256px] bg-[#0d111d] cursor-pointer border border-[#FFFFFF0D] rounded-[12px] py-7 px-6 transform transition-transform duration-300 ease-in-out hover:scale-105">
               <h4 className="text-white text-[24px]">Contract Analysis</h4>
               <div className="flex items-end justify-end">
                 <img src={contract} className="w-[200px] " alt="Contract" />
               </div>
             </div>
 
-            <div className="md:w-[355px] md:h-[268px] h-[256px] bg-[#0d111d] border border-[#FFFFFF0D] rounded-[12px] py-7 px-6 transform transition-transform duration-300 ease-in-out hover:scale-105">
+            <div className="md:w-[355px] md:h-[268px] h-[256px] bg-[#0d111d] cursor-pointer border border-[#FFFFFF0D] rounded-[12px] py-7 px-6 transform transition-transform duration-300 ease-in-out hover:scale-105">
               <h4 className="text-white text-[24px]">Risk Detection</h4>
               <div className="flex items-end justify-end">
                 <img src={Risk} className="w-[350px]" alt="Contract" />
@@ -57,7 +53,7 @@ export default function UseCase() {
             </div>
           </div>
           <div className="grid md:grid-cols-5 grid-cols-1 gap-5 items-center ">
-            <div className="md:w-[570px] md:h-[348px] h-[256px] bg-[#0d111d] border border-[#FFFFFF0D] rounded-[12px] py-7 px-6 transform transition-transform duration-300 ease-in-out hover:scale-105">
+            <div className="md:w-[570px] md:h-[348px] h-[256px] bg-[#0d111d] cursor-pointer border border-[#FFFFFF0D] rounded-[12px] py-7 px-6 transform transition-transform duration-300 ease-in-out hover:scale-105">
               <h4 className="text-white text-[24px]">Transaction Simulation</h4>
               <div className="flex items-end justify-end">
                 <img src={simulation} className="w-[270px] " alt="Phishing" />
@@ -65,20 +61,16 @@ export default function UseCase() {
             </div>
           </div>
           <div className="flex md:flex-row flex-col gap-5">
-            <div className="md:w-[355px] md:h-[268px] h-[256px] bg-[#0d111d] border border-[#FFFFFF0D] rounded-[12px] py-7 px-6 transform transition-transform duration-300 ease-in-out hover:scale-105">
+            <div className="md:w-[355px] md:h-[268px] h-[256px] bg-[#0d111d] cursor-pointer border border-[#FFFFFF0D] rounded-[12px] py-7 px-6 transform transition-transform duration-300 ease-in-out hover:scale-105">
               <h4 className="text-white text-[24px]">Token Analysis</h4>
               <div className="flex items-end justify-end">
                 <img src={token} className="w-[250px] " alt="Phishing" />
               </div>
             </div>
-            <div className="md:w-[355px] md:h-[268px] h-[256px] bg-[#0d111d] border border-[#FFFFFF0D] rounded-[12px] py-7 px-6 transform transition-transform duration-300 ease-in-out hover:scale-105">
+            <div className="md:w-[355px] md:h-[268px] h-[256px] bg-[#0d111d] cursor-pointer border border-[#FFFFFF0D] rounded-[12px] py-7 px-6 transform transition-transform duration-300 ease-in-out hover:scale-105">
               <h4 className="text-white text-[24px]">Real-Time Alerts</h4>
               <div className="flex items-end justify-end">
-                <img
-                  src={real}
-                  className="w-[200px] "
-                  alt="Phishing"
-                />
+                <img src={real} className="w-[200px] " alt="Phishing" />
               </div>
             </div>
           </div>
