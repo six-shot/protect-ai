@@ -35,14 +35,14 @@ export default function Scam() {
             }}
           />
           <h1
-            className="gradient-text reyhan-medium font-bold leading-[1em] text-[90px] z-10 -mt-[50px] mr-[10px]"
+            className=" reyhan-medium font-bold leading-[1em] text-[90px] z-10 -mt-[50px] mr-[10px]"
             style={{
-              color: "",
+              color: "#2D20DA",
               position: "relative",
               zIndex: 10,
             }}
           >
-            Enter a world without scams
+            Enter a world with<span className="gradient-text">out scams</span>
           </h1>
         </motion.div>
       </div>
