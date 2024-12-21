@@ -17,7 +17,7 @@ export default function Hero() {
 
       {/* Text overlay */}
       <div className="absolute -mt-[100px] inset-0 flex flex-col items-center justify-center reyhan-medium">
-        <h1 className="text-white md:text-[100px] text-[50px] leading-[50px] md:leading-[100px] font-bold text-center">
+        <h1 className="text-white md:text-[100px] text-[50px] leading-[50px] md:leading-[100px] font-bold text-center tracking-[3px]">
           Ai Antivirus that <br /> Scans All Scams
         </h1>
         <div className="flex items-center gap-4 mt-8">
