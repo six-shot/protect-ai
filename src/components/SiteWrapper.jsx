@@ -46,7 +46,7 @@ const Preloader = ({ children }) => {
 
   if (isLoading) {
     return (
-      <div className="fixed inset-0 z-50 flex items-center justify-center bg-[#2D21DE] ">
+      <div className="fixed inset-0 z-50 flex items-center justify-center bg-[#1A162B] ">
         <div className="flex gap-4 items-center animate-pulse">
           <div>
             <svg
