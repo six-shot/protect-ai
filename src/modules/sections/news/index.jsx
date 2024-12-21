@@ -18,7 +18,7 @@ export default function News() {
                 How AI Protects Your Web3 Transactions
               </h6>
             </div>
-            <div className="absolute top-0 right-0 w-[100px] flex items-center justify-center h-full  bg-[#2e21de] transform translate-x-[-20px] transition-transform duration-200 group-hover:translate-x-[80px] rounded-r-[16px]">
+            <div className="absolute top-0 right-0 w-[100px] flex items-center justify-center h-full  bg-[#2e21de] transform translate-x-[-20px] transition-transform duration-200 md:group-hover:translate-x-[80px] rounded-r-[16px]">
               <FaArrowRight className="text-white -rotate-[45deg] text-[20px]" />
             </div>
           </div>
@@ -30,7 +30,7 @@ export default function News() {
                 Top Tips to Avoid Phishing Scams{" "}
               </h6>
             </div>
-            <div className="absolute top-0 right-0 w-[100px] flex items-center justify-center h-full  bg-[#2e21de] transform translate-x-[-20px] transition-transform duration-200 group-hover:translate-x-[80px] rounded-r-[16px]">
+            <div className="absolute top-0 right-0 w-[100px] flex items-center justify-center h-full  bg-[#2e21de] transform translate-x-[-20px] transition-transform duration-200 md:group-hover:translate-x-[80px] rounded-r-[16px]">
               <FaArrowRight className="text-white -rotate-[45deg] text-[20px]" />
             </div>
           </div>
@@ -42,7 +42,7 @@ export default function News() {
                 Why Real-Time Alerts Matter in Web3
               </h6>
             </div>
-            <div className="absolute top-0 right-0 w-[100px] flex items-center justify-center h-full  bg-[#2e21de] transform translate-x-[-20px] transition-transform duration-200 group-hover:translate-x-[80px] rounded-r-[16px]">
+            <div className="absolute top-0 right-0 w-[100px] flex items-center justify-center h-full  bg-[#2e21de] transform translate-x-[-20px] transition-transform duration-200 md:group-hover:translate-x-[80px] rounded-r-[16px]">
               <FaArrowRight className="text-white -rotate-[45deg] text-[20px]" />
             </div>
           </div>
@@ -56,7 +56,7 @@ export default function News() {
                 Safeguarding Your Investments
               </h6>
             </div>
-            <div className="absolute top-0 right-0 w-[100px] flex items-center justify-center h-full  bg-[#2e21de] transform translate-x-[-20px] transition-transform duration-200 group-hover:translate-x-[80px] rounded-r-[16px]">
+            <div className="absolute top-0 right-0 w-[100px] flex items-center justify-center h-full  bg-[#2e21de] transform translate-x-[-20px] transition-transform duration-200 md:group-hover:translate-x-[80px] rounded-r-[16px]">
               <FaArrowRight className="text-white -rotate-[45deg] text-[20px]" />
             </div>
           </div>
@@ -70,7 +70,7 @@ export default function News() {
                 How Protect AI Stays Ahead of Emerging Threats
               </h6>
             </div>
-            <div className="absolute top-0 right-0 w-[100px] flex items-center justify-center h-full  bg-[#2e21de] transform translate-x-[-20px] transition-transform duration-200 group-hover:translate-x-[80px] rounded-r-[16px]">
+            <div className="absolute top-0 right-0 w-[100px] flex items-center justify-center h-full  bg-[#2e21de] transform translate-x-[-20px] transition-transform duration-200 md:group-hover:translate-x-[80px] rounded-r-[16px]">
               <FaArrowRight className="text-white -rotate-[45deg] text-[20px]" />
             </div>
           </div>
