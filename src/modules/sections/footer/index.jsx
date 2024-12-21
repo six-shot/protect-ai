@@ -81,7 +81,7 @@ export default function Footer() {
         <div className="bg-[#c7dcfe]  rounded-b-[clamp(16px,_13.621px_+_100vw*_.0061,_24px)]  py-[42px] px-[9px]">
           <div className="px-[42px] text-[#01001f]/40">
             <p> Copyright © 2024 Protect ai . All rights reserved.</p>
-            <p className="text-xs md:w-[862px]">
+            <p className="text-xs lg:w-[862px]">
               Products and services are offered by Clear Street LLC as a Broker
               Dealer member FINRA and SIPC and a Futures Commission Merchant
               registered with the CFTC and member of NFA. Additional information
